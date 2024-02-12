@@ -18,7 +18,7 @@ export const CheckIfWalletConnected = async() => {
 }
 
 //connect with the wallet in case of click event
-export connectWallet = async() => {
+export const connectWallet = async() => {
 	try{
 		if(!window.ethereum) return console.log("Install Metamask");
 		const accounts = await window.ethereum.requests({
@@ -58,12 +58,12 @@ export const convertTime = (time) => {
 		newTime.getHours() + 
 		"/" +
 		newTime.getMinutes() +
-		"/"
+		"/" + 
 		newTime.getSeconds() +
 		" Date:" +
 		newTime.getDate() +
 		"/" +
-		(newTime.getMonth() + 1) //index based values returned. eg: jan = 0, feb = 1. therefore, we added 1
+		(newTime.getMonth() + 1) +//index based values returned. eg: jan = 0, feb = 1. therefore, we added 1
 		"/" +
 		newTime.getFullYear();
 
