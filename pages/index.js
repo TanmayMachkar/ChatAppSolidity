@@ -3,7 +3,7 @@ import {ChatAppContext} from '../Context/ChatAppContext';
 
 const ChatApp = () => {
   const {} = useContext(ChatAppContext);
-  return <div>HEY</div>;
+  return <div></div>;
 };
 
 export default ChatApp;

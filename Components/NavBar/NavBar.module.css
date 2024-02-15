@@ -1,0 +1,84 @@
+.NavBar {
+  background-color: #333;
+  color: transparent;
+  padding: 10px 20px;
+}
+
+.NavBar_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavBar_box_left {
+  display: flex;
+  align-items: center;
+}
+
+.NavBar_box_right {
+  display: flex;
+  align-items: center;
+}
+
+.NavBar_box_right_menu {
+  display: flex;
+}
+
+.NavBar_box_right_menu_items {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.active_btn {
+  font-weight: bold;
+}
+
+.NavBar_box_right_menu_items_link {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile_menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.mobile_menu_items {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.mobile_menu_items_link {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile_menu_btn {
+  align-self: flex-end;
+}
+
+.NavBar_box_right_connect button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.NavBar_box_right_connect button span {
+  margin-left: 5px;
+}
+
+.NavBar_box_right_open {
+  cursor: pointer;
+  margin-left: 10px;
+}
