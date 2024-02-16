@@ -33,7 +33,7 @@ export const connectWallet = async() => {
 }
 
 const fetchContract = (signerOrProvider) => 
-	new ethers.Contract(ChatAppABI, ChatAppAddress, signerOrProvider); //The ethers.Contract class is a core part of the ethers.js library and is used to interact with Ethereum smart contracts.
+	new ethers.Contract(ChatAppAddress, ChatAppABI, signerOrProvider); //The ethers.Contract class is a core part of the ethers.js library and is used to interact with Ethereum smart contracts.
 	//signerOrProvider: The one who is trying to interact with our smart contract
 
 export const connectingWithContract = async() => {
