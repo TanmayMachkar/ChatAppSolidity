@@ -80,7 +80,7 @@ contract ChatApp{
 	}
 
 	//Get Friend
-	function getMyFriend() external view returns(friend[] memory ){
+	function getMyFriendList() external view returns(friend[] memory ){
 		return userList[msg.sender].friendList;
 	}
 

@@ -118,13 +118,14 @@ const NavBar = () => {
       {openModel && (
         <div className = {styles.modelBox}>
           <Model 
-            openModel = {setOpenModel}
+            openBox = {setOpenModel}
             title = "Welcome to"
             head = "Chat Buddy"
             info = "jajfdsgfjdsdfj"
             smallInfo = "Kindly select your name...."
             image = {images.hero}
             functionName = {createAccount}
+            address = {account}
           />
         </div>
       )}

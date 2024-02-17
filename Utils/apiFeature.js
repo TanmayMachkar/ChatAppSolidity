@@ -6,7 +6,7 @@ import { ChatAppAddress, ChatAppABI } from '../Context/constants';
 export const CheckIfWalletConnected = async() => {
 	try{
 		if(!window.ethereum) return console.log("Install Metamask");
-		const accounts = await window.ethereum.requests({
+		const accounts = await window.ethereum.request({
 			method: "eth_accounts"
 		});
 
@@ -21,7 +21,7 @@ export const CheckIfWalletConnected = async() => {
 export const connectWallet = async() => {
 	try{
 		if(!window.ethereum) return console.log("Install Metamask");
-		const accounts = await window.ethereum.requests({
+		const accounts = await window.ethereum.request({
 			method: "eth_requestAccounts" //The method parameter is set to "eth_accounts", which is a method used to retrieve the accounts associated with the connected wallet.
 		});
 

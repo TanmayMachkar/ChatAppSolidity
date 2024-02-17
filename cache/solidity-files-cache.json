@@ -35,6 +35,41 @@
       "artifacts": [
         "ChatApp"
       ]
+    },
+    "C:\\Users\\ADMIN\\ChatAppSolidity\\contracts\\ChatApp.sol": {
+      "lastModificationDate": 1708161462107,
+      "contentHash": "6c422ccadeb7cc3090ad958131a30307",
+      "sourceName": "contracts/ChatApp.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ChatApp"
+      ]
     }
   }
 }
