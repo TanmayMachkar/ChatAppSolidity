@@ -69,7 +69,7 @@ contract ChatApp{
 
 		for(uint256 i = 0; i<userList[pubkey1].friendList.length; i++)
 		{
-			if(userList[pubkey1].friendList[i].pubkey == pubkey2) return false;
+			if(userList[pubkey1].friendList[i].pubkey == pubkey2) return true;
 		}
 		return false;
 	}
