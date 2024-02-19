@@ -132,7 +132,7 @@ const Chat = ({
                     alt = 'file'
                     width = {50}
                     height = {50}
-                    onClick = {() => functionName({ msg: message, address: chatData.address})}
+                    onClick = {() => functionName({ msg: message, address: router.query.address})}
                   />
                 )
               }
