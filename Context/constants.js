@@ -4,6 +4,6 @@
 //ChatAppAddress: This is the address of the deployed instance of the smart contract on the Ethereum blockchain. When you deploy a smart contract, it gets assigned a unique Ethereum address where it resides on the blockchain.
 import chatAppJSON from './ChatApp.json';
 
-export const ChatAppAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+export const ChatAppAddress = "0x92873D86f4080b8Fb5f0f669104bC6B794A85f07";
 
 export const ChatAppABI = chatAppJSON.abi;
